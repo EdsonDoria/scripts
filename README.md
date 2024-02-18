@@ -1,2 +1,2 @@
 # scripts
-Script em Shell bash e zhs
+Script em Shell bash e zsh
