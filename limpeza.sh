@@ -94,8 +94,8 @@ echo "##############################################################"
 echo " "
 echo " "
 echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
-read resposta3
-case "$resposta3" in
+read resposta4
+case "$resposta4" in
   s|S)  flatpak uninstall --unused>/dev/null 2>&1/* ;;
   n|N) echo "proximo comando para ser executado" ;;
   *) exit 0 ;;
