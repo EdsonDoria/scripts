@@ -16,8 +16,8 @@ echo "##############################################################"
 echo " "
 echo " "
 echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
-read resposta
-case "$resposta" in
+read resposta1
+case "$resposta1" in
   s|S) rm /var/lib/systemd/coredump/* >/dev/null 2>&1 ;;
   n|N) echo "proximo comando para ser executado" ;;
   *) exit 0 ;;
@@ -41,8 +41,8 @@ echo "##############################################################"
 echo " "
 echo " "
 echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
-read resposta
-case "$resposta" in
+read resposta2
+case "$resposta2" in
   s|S) journalctl --vacuum-time=2d >/dev/null 2>&1/* ;;
   n|N) echo "proximo comando para ser executado" ;;
   *) exit 0 ;;
