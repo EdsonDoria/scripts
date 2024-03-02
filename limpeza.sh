@@ -67,12 +67,23 @@ echo "##                                                          ##"
 echo "##############################################################"
 echo " "
 echo " "
-echo "Digite s para continuar ou qualquer outra coisa para terminar"
-read resp
-if [ $resp. != 's.' ]; then
-    exit 0
-fi
-journalctl --vacuum-size=500M
+echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
+read resposta3
+case "$resposta3" in
+  s|S) journalctl --vacuum-size=500M >/dev/null 2>&1/* ;;
+  n|N) echo "proximo comando para ser executado" ;;
+  *) exit 0 ;;
+esac
+    for i in {1..10}; do
+        echo -n "######"
+        sleep 0.5
+    done
+#echo "Digite s para continuar ou qualquer outra coisa para terminar"
+#read resp
+#if [ $resp. != 's.' ]; then
+#    exit 0
+#fi
+#journalctl --vacuum-size=500M
 echo " "
 echo " "
 echo "##############################################################"
