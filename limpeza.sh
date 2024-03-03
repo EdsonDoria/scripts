@@ -120,9 +120,9 @@ echo "##############################################################"
 echo " "
 echo " "
 echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
-read resposta4
-case "$resposta4" in
-  s|S)  sync; echo 3 > /proc/sys/vm/drop_caches >/dev/null 2>&1/* ;;
+read resposta5
+case "$resposta5" in
+  s|S)  sync; echo 3 > /proc/sys/vm/drop_caches ;;
   n|N) echo "proximo comando para ser executado" ;;
   *) exit 0 ;;
 esac
