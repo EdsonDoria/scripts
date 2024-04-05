@@ -1,6 +1,6 @@
 #!/bin/zsh
 #Limpar o sistema
-
+# refazer
 echo "Tokem atualizado 21 de março"
 echo "##############################################################"
 echo "##                                                          ##"
