@@ -43,23 +43,7 @@ for i in {1..10}; do
     echo -n "######"
     sleep 0.5
 done
-#Procurando estabelecer o padrão de pergunta e resposta
-#echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
-#read resposta1
-#case "$resposta1" in
-#  s|S) rm /var/lib/systemd/coredump/* >/dev/null 2>&1 ;;
-#  n|N) echo "proximo comando para ser executado" ;;
-#  *) exit 0 ;;
-#esac
-#    for i in {1..10}; do
-#        echo -n "######"
-#        sleep 0.5
-#    done
-#read resp
-#if [ $resp. != 's.' ]; then
-#	exit 0
-#fi
-#rm /var/lib/systemd/coredump/*
+
 echo " "
 echo " "
 echo "##############################################################"
