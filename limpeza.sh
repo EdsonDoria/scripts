@@ -36,26 +36,6 @@ case "$resposta" in
     n|N)
     echo "Próximo comando a ser executado" ;;
     *)
-
-
-echo "Pressione 's' para Sim, 'n' para Não ou qualquer outra tecla para sair."
-#stty -echo # Desliga o eco da entrada do usuário
-read -n resposta
-stty echo # Liga o eco da entrada do usuário
-case "$resposta" in
-    s|S)
-        echo "" # Adiciona uma quebra de linha após a entrada para "Sim"
-        if output=$(rm -fr /var/lib/systemd/coredump/* 2>/dev/null); then
-            echo "Arquivos removidos."
-        else
-            if [[ "$output" != *"No such file or directory"* ]]; then
-                echo "Não existem arquivos para remover."
-                echo "Nada a fazer."
-            fi
-    fi ;;
-    n|N)
-    echo "Próximo comando a ser executado" ;;
-    *)
     exit 0 ;;
 esac
 
