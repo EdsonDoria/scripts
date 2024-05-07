@@ -1,6 +1,7 @@
 #!/bin/zsh
 #Limpar o sistema
 #Refazer todo Script
+#Tentando entender agora
 
 echo "Tokem atualizado 21 de março"
 echo "##############################################################"
