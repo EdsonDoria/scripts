@@ -1,13 +1,14 @@
 #!/bin/zsh
-#Limpar o sistema
-#Refazer todo Script
-#Tentando entender agora
+# Limpar o sistema
+# Refazer todo Script
+# Tentando entender agora
+# Mudança no cabeçalho 1
 
 echo "Tokem atualizado 21 de março"
 echo "##############################################################"
 echo "##                                                          ##"
 echo "##                     Limpar o sistema                     ##"
-echo "##                           vamos                          ##"
+echo "##                      vamos  começar                      ##"
 echo "##############################################################"
 echo " "
 echo " "
