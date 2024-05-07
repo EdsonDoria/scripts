@@ -1,10 +1,6 @@
 #!/bin/zsh
-# Limpar o sistema
-# Refazer todo Script
-# Tentando entender agora
-# Mudança no cabeçalho 1
+# Limpar o sistema no fedora
 
-echo "Tokem atualizado 21 de março"
 echo "##############################################################"
 echo "##                                                          ##"
 echo "##                     Limpar o sistema                     ##"
