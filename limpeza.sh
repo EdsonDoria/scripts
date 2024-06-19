@@ -1,5 +1,6 @@
 #!/bin/zsh
 # Limpar o sistema no fedora
+# 19 de junho apenas para rodar
 
 echo "##############################################################"
 echo "##                                                          ##"
