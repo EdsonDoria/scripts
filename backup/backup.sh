@@ -1,3 +1,16 @@
 #!/bin/bash
-# Inicia o script e indica que será interpretado pelo bash
-tar -czvf /backup/full_backup_$(date +%F).tar.gz /home /etc
+
+# diretório 
+backup_dir="/backup"
+
+# Cria se não existir
+mkdir -p "$backup_dir"
+
+# Criar com data
+backup_file="$backup_dir/full_backup_$(date +%F).tar.gz"
+
+# Usar o TAR
+tar -czvf "$backup_file" /home /etc
+
+# Mostrar a mensagem de concluido
+echo "Backup created: $backup_file"
