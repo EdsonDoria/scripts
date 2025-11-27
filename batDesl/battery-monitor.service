@@ -1,0 +1,12 @@
+[Unit]
+Description=Battery Monitor Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/battery-shutdown.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
