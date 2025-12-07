@@ -14,3 +14,4 @@ tar -czvf "$backup_file" /home /etc
 
 # Mostrar a mensagem de concluido
 echo "Backup created: $backup_file"
+# ver merda
